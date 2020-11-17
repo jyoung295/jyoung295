@@ -129,7 +129,7 @@ export const Player: React.FC<Props> = ({
         className={isPlaying ? "disabled" : ""}
         style={{
           display: "flex",
-          alignItems: "center",
+          alignItems: "flex-start",
           paddingTop: 8,
           paddingLeft: 4,
         }}
@@ -138,8 +138,10 @@ export const Player: React.FC<Props> = ({
         <div
           style={{
             display: "flex",
-            flex: 1,
-            flexDirection: "column",
+            flexGrow: 0,
+            flexShrink: 1,
+            flexBasis: '50%',
+            flexDirection: 'column',
             marginTop: -4,
             marginLeft: 8,
           }}
