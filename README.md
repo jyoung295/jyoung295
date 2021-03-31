@@ -6,7 +6,7 @@ _Currently working as the **Senior Developer** at [Purdue University - Marketing
 <h2 style="width: 512px;">Currently Playing on my <span style="color: #1DB954;">Spotify</span> 🎧</h2>
 
 <a href="https://profile-readme-wheat.vercel.app/now-playing?open">
-    <img src="https://profile-readme-wheat.vercel.app/now-playing" width="512" height="64" alt="Now Playing">
+    <img src="https://profile-readme-wheat.vercel.app/now-playing" width="512" height="76" alt="Now Playing">
 </a>
 </div>
 
