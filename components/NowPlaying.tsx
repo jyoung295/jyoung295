@@ -23,6 +23,13 @@ export const Player: React.FC<Props> = ({
     <ReadmeImg width="512" height="64">
       <style>
         {`
+            .spotify-player {
+              display: flex;
+              align-items: flex-start;
+              padding: 14px 18px;
+              background: white;
+              border-radius: 8px;
+            }
             .paused { 
               animation-play-state: paused !important;
               background: #e1e4e8 !important;
@@ -126,13 +133,7 @@ export const Player: React.FC<Props> = ({
         `}
       </style>
       <div
-        className={isPlaying ? "disabled" : ""}
-        style={{
-          display: "flex",
-          alignItems: "flex-start",
-          paddingTop: 8,
-          paddingLeft: 4,
-        }}
+        className={`spotify-player${isPlaying ? " disabled" : ""}`}
       >
         <img id="cover" src={cover ?? null} width="48" height="48" />
         <div
