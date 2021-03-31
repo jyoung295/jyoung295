@@ -20,7 +20,7 @@ export const Player: React.FC<Props> = ({
   isPlaying,
 }) => {
   return (
-    <ReadmeImg width="512" height="64">
+    <ReadmeImg width="512" height="76">
       <style>
         {`
             .spotify-player {
