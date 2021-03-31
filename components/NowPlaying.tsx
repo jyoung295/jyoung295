@@ -141,7 +141,7 @@ export const Player: React.FC<Props> = ({
             display: "flex",
             flexGrow: 0,
             flexShrink: 1,
-            flexBasis: '50%',
+            flexBasis: '100%',
             flexDirection: 'column',
             marginTop: -4,
             marginLeft: 8,
