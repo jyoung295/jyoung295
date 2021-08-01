@@ -10,8 +10,13 @@ _Currently working as the **Senior Developer** at [Purdue University - Marketing
 </a>
 </div>
 
-## Open Source Projects
+## Projects
 
 **[Bulma Blocks](https://github.com/Purdue/bulma-blocks)**
 
 _A set of layout blocks built for <a href="https://github.com/wordpress/gutenberg" target="_blank">Gutenberg</a> based on the CSS framework, <a href="https://bulma.io" target="_blank">Bulma</a>._
+
+**[Palettify](https://github.com/jyoung295/palettify)**
+
+_Web app that allows users to automatically create a color palette derived from  an uploaded image._
+
